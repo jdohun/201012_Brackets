@@ -1,0 +1,35 @@
+.section1,
+.section2,
+.section3,
+.section4,
+.section5{
+    display: none;
+}
+
+.verse1,
+.verse2,
+.verse3,
+.verse4,
+.Hook{
+    display:inline;
+}
+
+.anim{
+    animation: anim 2s linear infinite;
+}
+
+@keyframes anim{
+    0%{
+        background-color:aqua;
+    }
+    20%{
+        background-color: red;
+    }
+    40%{
+        background-color:purple;
+    }
+}
+
+.textcolor{
+    color: chartreuse;
+}
